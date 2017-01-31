@@ -1,0 +1,44 @@
+#classes {
+	background-color: #98FB98;
+}
+
+#home {
+	font-size: 20px;
+}
+
+#biography {
+	font-size: 20px;
+}
+
+#classes{
+  font-size: 20px;
+}
+#firstparagraph{
+	color: black;
+}
+
+#worldview{
+  font-size: 20px;
+}
+
+#worldviewp{
+	color: black;
+}
+#toggler, #wtoggler, #htoggler, #ptoggler, #btoggler, #petoggler, #stoggler, #etoggler{
+	border: 2px solid;
+     border-radius: 25px;
+}
+#note {
+	font-size: 10px;
+}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 100px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+#togg{
+	font-size: 10px;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 110px;background: #222;}
