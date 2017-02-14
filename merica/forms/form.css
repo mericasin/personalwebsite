@@ -1,4 +1,5 @@
 #wrap{
+	background-color:
 background-image: -ms-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
 /* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #FFFFFF 0%, #D3D8E8 100%);
@@ -13,7 +14,6 @@ background-image: linear-gradient(to bottom, #FFFFFF 0%, #D3D8E8 100%);
 background-repeat: no-repeat;
 background-attachment: fixed;
 width: 399px;
-height: 172px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -88,6 +88,7 @@ margin: 0;
 		background-color: transparent;
 position: relative;
     border: 1px solid #bdc7d8;
+
 }
 #signup{
 	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
