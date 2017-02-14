@@ -16,7 +16,6 @@ width: 399px;
 height: 172px;
 margin-left: auto;
 margin-right: auto;
-
 }
 legend{
 	color:#141823;
@@ -79,7 +78,7 @@ width: 316px;
 }
 #boxes {
 	font-family: inherit;
-	    letter-spacing: inherit;
+	letter-spacing: inherit;
 	    width: 172px;
 			font-size: 18px;
     padding: 8px 10px;
@@ -117,4 +116,7 @@ position: relative;
 		color: #333;
 		margin-bottom: 20px;
 		    display: block;
+}
+#bday{
+	font-family: inherit;
 }
