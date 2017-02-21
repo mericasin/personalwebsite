@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+		<title>Guestbook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <body style ="background-color: #333333;">
+
+    <!-- Icon Bar (Sidenav - hidden on small screens) -->
+    <nav class="w3-sidenav w3-center w3-small w3-hide-small">
+      <!--navigation-->
+        <p><a href="index.html">HOME</a></p>
+      </a>
+        <p><a href="about.html"> ABOUT</a></p>
+      </a>
+        <p><a href="worldview.html"> WORLDVIEW</a></p>
+      </a>
+        <p><a href="classes.html">CLASSES</a></p>
+        <p><a href="guestbook.html">GUESTBOOK</a></p>
+      </a>
+    </nav>
+    <!-- Page Content -->
+    <div id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">Guestbook</span> Merica Sin.</h1>
+        <p>Leave your marks here!</p>
+      </header>
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+		<p>Welcome to the guestbook page! Please leave a comment, so that I know you visited my page!</p>
+<form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
+<input type="text" name="lastname" value="" class="form-control input-lg" placeholder="Full Name"  />
+<br><br>
+<input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  />
+<br><br><input type="text" name="favoritewebsite" value="" class="form-control input-lg" placeholder="Your Favorite Website"  />
+<br><br><input type="text" name="comment" value="" class="form-control input-lg" placeholder="Comment"  />
+<button id="enter"> enter </button>
+</form>
+  </body>
+</html>
